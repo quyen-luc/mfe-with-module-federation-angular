@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    gap: 20px;
+    background: rgb(56, 55, 55);
+    
+    a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+
+        &:hover {
+            background: rgb(126, 123, 123);
+        }
+    }
+
+    .nav-active {
+        background: rgb(126, 123, 123);
+    }    
+}
+
+.content {
+    padding: 10px;
+    background: #f6ede1;
+}
